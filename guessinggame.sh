@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-files=$(ls -1 | wc -l)
+files=$( ls -1 | wc -l ) 
 check=0
 while [ $check -eq 0 ]
 do
