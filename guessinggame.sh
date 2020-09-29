@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 function files {
-	no_files=$( ls ~/assess-repo | wc -l)
+	no_files=$( ls -1 | wc -l)
 	echo $no_files
 }
 
